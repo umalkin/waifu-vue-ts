@@ -1,0 +1,27 @@
+{
+  "name": "vue-waifu",
+  "version": "1.0.0",
+  "description": "A simple web app where you can get a random waifu.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "vue",
+    "ts"
+  ],
+  "author": "umalkin",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.10.3",
+    "@types/node": "^20.10.5",
+    "axios": "^1.6.2",
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  }
+}
